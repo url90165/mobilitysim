@@ -1,0 +1,169 @@
+html, body {
+			height: 100%;
+			width:100%;
+			margin: 0;
+			font-family: 'Open Sans', sans-serif;
+			font-size:12pt;
+}
+#sidepanel {
+	position: absolute;
+	left:0;
+	bottom:0;
+	width:260px;
+	background-color: #343434;
+	padding:20px;
+	font-size:1em;
+	top:0;
+	color:#fff;
+}
+#map1 {
+	top:0;
+	width: 50%;
+	height:100%;
+	z-index:1;
+	float:left;
+}
+#map2 {
+	top:0;
+	width: 50%;
+	height:100%;
+	z-index:1;
+}
+#lock1 {
+	position:absolute;
+	top:0;
+	left:0px;
+	background-color:#333;
+	z-index:500;
+	width: 50%;
+	bottom:0;
+	display:none;
+	cursor: pointer;
+	opacity:0.2;
+}
+#lock2 {
+	position:absolute;
+	top:0;
+	right:0px;
+	background-color:#333;
+	z-index:500;
+	width: 50%;
+	bottom:0;
+	display:none;
+	cursor: pointer;
+	opacity:0.2;
+}
+#lockdetails {
+	position:absolute;
+	margin-left:-170px;
+	z-index:501;
+	width:300px;
+	margin-top:-50px;
+	top:40%;
+	left:25%;
+	display:none;
+	background-color:#fff;
+	cursor: pointer;
+	padding:20px;
+	text-align:center;	
+	border-radius: 3px;
+	border: solid 2px #bbb;
+}
+#lockdetails2 {
+	position:absolute;
+	margin-right:-170px;
+	z-index:501;
+	width:300px;
+	margin-top:-50px;
+	top:40%;
+	right:25%;
+	display:none;
+	background-color:#fff;
+	cursor: pointer;
+	padding:20px;
+	text-align:center;	
+	border-radius: 3px;
+	border: solid 2px #bbb;
+}
+#sliders {
+	
+	font-size:0.8em;
+	color:#fff;
+}
+#custom-handle {
+    width: 3em;
+    height: 1.6em;
+    top: 50%;
+    margin-top: -.8em;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 1.6em;
+  }
+.slidertitle {
+	margin-top:30px;
+	font-weight:1000;
+	font-size:1.2em;
+	margin-bottom:5px;
+}
+#main {
+	position:absolute;
+	left:260px;
+	bottom:0;
+	top:0;
+	width: calc(100% - 260px);
+	margin:0;
+}
+#overview {
+	color:#fff;
+	width:220px;
+}
+#legend {
+	width:220px;
+	background-color:#fff;
+	text-align:center;
+	padding:1px;
+}
+.col {
+	width:208px;
+	margin:1px;
+	padding:5px;
+	color: #ccc;
+	text-align:center;
+	font-size:0.9em;
+	text-shadow: 1px 1px 1px black;
+}
+#instructionslock {
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background-color:#666;
+	opacity:0.5;
+	z-index:600;
+}
+#instructions {
+	position:absolute;
+	margin-left:50%;
+	left:-300px;
+	width:560px;
+	padding:20px;
+	top:50%;
+	margin-top:-300px;
+	border-radius:3px;
+	background-color:#fff;
+	z-index:601;
+	font-size:1em;
+	color:#333;
+	line-height:1.5em;
+}
+#filler {
+	position:absolute;
+	left: 50%;
+	bottom:0;
+	top:0;
+	width: 2px;
+	margin:0;
+	background-color:#333;
+	z-index:599;
+}
